@@ -4,6 +4,9 @@
     "slug": "balcony-aroma",
     "version": "1.0.0",
     "orientation": "portrait",
+    "plugins": [
+      ["expo-notifications", { "icon": "./assets/icon.png", "color": "#E23744" }]
+    ],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
